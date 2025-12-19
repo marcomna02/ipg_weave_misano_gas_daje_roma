@@ -1,0 +1,29 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-Tire-TASS_MF 1
+FileCreator = MotorcycleMaker Office 14.1.1
+
+Description:
+
+
+## General ###############################################################
+
+
+## Visualization #########################################################
+FLoadMax = 10000.0
+
+
+## Parameter File ########################################################
+AdamsPropertyFile = Pacejka/TireRear_DEMO.tir
+
+
+## TASS_MF ###############################################################
+TyreSide = auto
+ContactMethod = smooth_road
+Dynamics = linear
+SlipForces = combined
+TemperatureAndVelocityMode = disabled
+SolverMode = Default_MF-Tyre_MF-Swift
+OSRate = 5
+
+
+## Additional ############################################################

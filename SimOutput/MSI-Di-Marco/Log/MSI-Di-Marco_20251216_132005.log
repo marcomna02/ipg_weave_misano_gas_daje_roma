@@ -1,0 +1,175 @@
+APPLICATION	MotorcycleMaker 14.1.1 - MCycle_Generic #1 (win64-14.1.1)
+COMPILED	jetbrains@2dc68d98a08b 2025-07-07 14:55:54
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2025-12-16 13:20:05
+TIME	0.000
+SIM_END			0s	0m
+IDLE	13:20:05
+SIM_START	MyPG_Weave	2025-12-16 13:20:06
+TIME	0.002
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	22.087
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.16 deg)
+SIM_ABORT	MyPG_Weave	22.106s	1034.71m
+TIME	47.159
+SIM_START	MyPG_Weave	2025-12-16 13:24:39
+TIME	0.002
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	58.898
+		WARNING - Inclination angle is below tire file parameter CAMMIN. It is capped at (-0.96).
+		WARNING - Longitudinal slip is above tire file maximum parameter KPUMAX. It is capped at (1.5).
+		WARNING - Slip angle is below tire file parameter ALPMIN. It is capped at (-1.5).
+		WARNING - Longitudinal slip is below tire file parameter KPUMIN. It is capped at (-1.5).
+ERROR		Roll angle too high (-60.02 deg)
+SIM_ABORT	MyPG_Weave	58.928s	2935.73m
+TIME	61.010
+SIM_START	MyPG_Weave	2025-12-16 13:25:22
+TIME	0.004
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	58.898
+		WARNING - Inclination angle is below tire file parameter CAMMIN. It is capped at (-0.96).
+		WARNING - Longitudinal slip is above tire file maximum parameter KPUMAX. It is capped at (1.5).
+		WARNING - Slip angle is below tire file parameter ALPMIN. It is capped at (-1.5).
+		WARNING - Longitudinal slip is below tire file parameter KPUMIN. It is capped at (-1.5).
+ERROR		Roll angle too high (-60.02 deg)
+SIM_ABORT	MyPG_Weave	58.928s	2935.73m
+SIM_START	MyPG_Weave	2025-12-16 13:25:47
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	58.898
+		WARNING - Inclination angle is below tire file parameter CAMMIN. It is capped at (-0.96).
+		WARNING - Longitudinal slip is above tire file maximum parameter KPUMAX. It is capped at (1.5).
+		WARNING - Slip angle is below tire file parameter ALPMIN. It is capped at (-1.5).
+		WARNING - Longitudinal slip is below tire file parameter KPUMIN. It is capped at (-1.5).
+ERROR		Roll angle too high (-60.02 deg)
+SIM_ABORT	MyPG_Weave	58.928s	2935.73m
+TIME	62.506
+SIM_START	MyPG_Weave	2025-12-16 13:26:44
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	22.087
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.16 deg)
+SIM_ABORT	MyPG_Weave	22.106s	1034.71m
+TIME	34.372
+SIM_START	MyPG_Weave	2025-12-16 13:28:55
+TIME	0.002
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	22.087
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.16 deg)
+SIM_ABORT	MyPG_Weave	22.106s	1034.71m
+TIME	37.030
+SIM_START	MyPG_Weave	2025-12-16 13:31:33
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	22.127
+		WARNING - Longitudinal slip is above tire file maximum parameter KPUMAX. It is capped at (1.5).
+		WARNING - Slip angle is above tire file maximum parameter ALPMAX. It is capped at (1.5).
+		WARNING - Longitudinal slip is below tire file parameter KPUMIN. It is capped at (-1.5).
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.08 deg)
+SIM_ABORT	MyPG_Weave	22.236s	1043.59m
+TIME	27.676
+SIM_START	MyPG_Weave	2025-12-16 13:32:37
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	22.502
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.10 deg)
+SIM_ABORT	MyPG_Weave	22.519s	1057.92m
+TIME	31.959
+SIM_START	MyPG_Weave	2025-12-16 13:34:19
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	23.385
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.50 deg)
+SIM_ABORT	MyPG_Weave	23.408s	1088.32m
+TIME	0.001
+SIM_START	MyPG_Weave	2025-12-16 13:34:51
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	22.502
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.10 deg)
+SIM_ABORT	MyPG_Weave	22.519s	1057.92m
+TIME	27.086
+SIM_START	MyPG_Weave	2025-12-16 13:35:43
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	11.513
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.09 deg)
+SIM_ABORT	MyPG_Weave	11.528s	342.559m
+TIME	14.561
+SHUTDOWN	CarMaker quick shutdown initiated
+

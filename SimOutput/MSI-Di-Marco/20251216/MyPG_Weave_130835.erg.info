@@ -1,0 +1,384 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+
+File.Format = erg
+File.ByteOrder = LittleEndian
+File.DateInSeconds = 1765886936
+File.DateLocal = 2025-12-16 13:08:56 ora solare Europa occidentale
+
+File.At.1.Name = Time
+File.At.1.Type = Double
+Quantity.Time.Unit = s
+
+File.At.2.Name = Vhcl.sRoad
+File.At.2.Type = Double
+Quantity.Vhcl.sRoad.Unit = m
+
+File.At.3.Name = DM.Brake
+File.At.3.Type = Float
+
+File.At.4.Name = DM.BrakeLever
+File.At.4.Type = Float
+
+File.At.5.Name = DM.Clutch
+File.At.5.Type = Float
+
+File.At.6.Name = DM.Gas
+File.At.6.Type = Float
+
+File.At.7.Name = DM.Lat.StepDist
+File.At.7.Type = Float
+Quantity.DM.Lat.StepDist.Unit = m
+
+File.At.8.Name = DM.Lat.StepTime
+File.At.8.Type = Float
+Quantity.DM.Lat.StepTime.Unit = s
+
+File.At.9.Name = DM.Long.StepDist
+File.At.9.Type = Float
+Quantity.DM.Long.StepDist.Unit = m
+
+File.At.10.Name = DM.Long.StepTime
+File.At.10.Type = Float
+Quantity.DM.Long.StepTime.Unit = s
+
+File.At.11.Name = DM.Steer.Ang
+File.At.11.Type = Float
+Quantity.DM.Steer.Ang.Unit = rad
+
+File.At.12.Name = DM.Steer.Trq
+File.At.12.Type = Float
+Quantity.DM.Steer.Trq.Unit = Nm
+
+File.At.13.Name = MC.Distance
+File.At.13.Type = Float
+Quantity.MC.Distance.Unit = m
+
+File.At.14.Name = MC.Gen.a_1.x
+File.At.14.Type = Float
+Quantity.MC.Gen.a_1.x.Unit = m/s^2
+
+File.At.15.Name = MC.Gen.a_1.y
+File.At.15.Type = Float
+Quantity.MC.Gen.a_1.y.Unit = m/s^2
+
+File.At.16.Name = MC.Gen.a_1.z
+File.At.16.Type = Float
+Quantity.MC.Gen.a_1.z.Unit = m/s^2
+
+File.At.17.Name = MC.Pitch
+File.At.17.Type = Float
+Quantity.MC.Pitch.Unit = rad
+
+File.At.18.Name = MC.PitchAcc
+File.At.18.Type = Float
+Quantity.MC.PitchAcc.Unit = rad/s^2
+
+File.At.19.Name = MC.PitchVel
+File.At.19.Type = Float
+Quantity.MC.PitchVel.Unit = rad/s
+
+File.At.20.Name = MC.Roll
+File.At.20.Type = Float
+Quantity.MC.Roll.Unit = rad
+
+File.At.21.Name = MC.RollAcc
+File.At.21.Type = Float
+Quantity.MC.RollAcc.Unit = rad/s^2
+
+File.At.22.Name = MC.RollVel
+File.At.22.Type = Float
+Quantity.MC.RollVel.Unit = rad/s
+
+File.At.23.Name = MC.Roll_static
+File.At.23.Type = Float
+Quantity.MC.Roll_static.Unit = rad
+
+File.At.24.Name = MC.TF.Frc.x
+File.At.24.Type = Float
+Quantity.MC.TF.Frc.x.Unit = N
+
+File.At.25.Name = MC.TF.Frc.y
+File.At.25.Type = Float
+Quantity.MC.TF.Frc.y.Unit = N
+
+File.At.26.Name = MC.TF.Frc.z
+File.At.26.Type = Float
+Quantity.MC.TF.Frc.z.Unit = N
+
+File.At.27.Name = MC.TF.LongSlip
+File.At.27.Type = Float
+
+File.At.28.Name = MC.TF.SlipAngle
+File.At.28.Type = Float
+Quantity.MC.TF.SlipAngle.Unit = rad
+
+File.At.29.Name = MC.TR.Frc.x
+File.At.29.Type = Float
+Quantity.MC.TR.Frc.x.Unit = N
+
+File.At.30.Name = MC.TR.Frc.y
+File.At.30.Type = Float
+Quantity.MC.TR.Frc.y.Unit = N
+
+File.At.31.Name = MC.TR.Frc.z
+File.At.31.Type = Float
+Quantity.MC.TR.Frc.z.Unit = N
+
+File.At.32.Name = MC.TR.LongSlip
+File.At.32.Type = Float
+
+File.At.33.Name = MC.TR.SlipAngle
+File.At.33.Type = Float
+Quantity.MC.TR.SlipAngle.Unit = rad
+
+File.At.34.Name = MC.Yaw
+File.At.34.Type = Float
+Quantity.MC.Yaw.Unit = rad
+
+File.At.35.Name = MC.YawAcc
+File.At.35.Type = Float
+Quantity.MC.YawAcc.Unit = rad/s^2
+
+File.At.36.Name = MC.YawVel
+File.At.36.Type = Float
+Quantity.MC.YawVel.Unit = rad/s
+
+File.At.37.Name = MC.alHori
+File.At.37.Type = Float
+Quantity.MC.alHori.Unit = m/s^2
+
+File.At.38.Name = MC.atHori
+File.At.38.Type = Float
+Quantity.MC.atHori.Unit = m/s^2
+
+File.At.39.Name = MC.v
+File.At.39.Type = Float
+Quantity.MC.v.Unit = m/s
+
+File.At.40.Name = PT.Clutch.0.Trq_out
+File.At.40.Type = Float
+Quantity.PT.Clutch.0.Trq_out.Unit = Nm
+
+File.At.41.Name = PT.Control.Consump.Fuel.Abs
+File.At.41.Type = Float
+Quantity.PT.Control.Consump.Fuel.Abs.Unit = l
+
+File.At.42.Name = PT.Control.Consump.Fuel.Act
+File.At.42.Type = Float
+Quantity.PT.Control.Consump.Fuel.Act.Unit = l/100km
+
+File.At.43.Name = PT.Control.Consump.Fuel.Avg
+File.At.43.Type = Float
+Quantity.PT.Control.Consump.Fuel.Avg.Unit = l/100km
+
+File.At.44.Name = PT.Engine.Trq
+File.At.44.Type = Float
+Quantity.PT.Engine.Trq.Unit = Nm
+
+File.At.45.Name = PT.Engine.be
+File.At.45.Type = Float
+Quantity.PT.Engine.be.Unit = g/kWh
+
+File.At.46.Name = PT.Engine.rot
+File.At.46.Type = Float
+Quantity.PT.Engine.rot.Unit = rad
+
+File.At.47.Name = PT.Engine.rotv
+File.At.47.Type = Float
+Quantity.PT.Engine.rotv.Unit = rad/s
+
+File.At.48.Name = PT.WF.Trq_B2W
+File.At.48.Type = Float
+Quantity.PT.WF.Trq_B2W.Unit = Nm
+
+File.At.49.Name = PT.WF.Trq_BrakeReg
+File.At.49.Type = Float
+Quantity.PT.WF.Trq_BrakeReg.Unit = Nm
+
+File.At.50.Name = PT.WF.Trq_BrakeReg_max
+File.At.50.Type = Float
+Quantity.PT.WF.Trq_BrakeReg_max.Unit = Nm
+
+File.At.51.Name = PT.WF.Trq_Drive
+File.At.51.Type = Float
+Quantity.PT.WF.Trq_Drive.Unit = Nm
+
+File.At.52.Name = PT.WF.Trq_Supp2WC
+File.At.52.Type = Float
+Quantity.PT.WF.Trq_Supp2WC.Unit = Nm
+
+File.At.53.Name = PT.WF.rot
+File.At.53.Type = Float
+Quantity.PT.WF.rot.Unit = rad
+
+File.At.54.Name = PT.WF.rotv
+File.At.54.Type = Float
+Quantity.PT.WF.rotv.Unit = rad/s
+
+File.At.55.Name = PT.WR.Trq_B2W
+File.At.55.Type = Float
+Quantity.PT.WR.Trq_B2W.Unit = Nm
+
+File.At.56.Name = PT.WR.Trq_BrakeReg
+File.At.56.Type = Float
+Quantity.PT.WR.Trq_BrakeReg.Unit = Nm
+
+File.At.57.Name = PT.WR.Trq_BrakeReg_max
+File.At.57.Type = Float
+Quantity.PT.WR.Trq_BrakeReg_max.Unit = Nm
+
+File.At.58.Name = PT.WR.Trq_Drive
+File.At.58.Type = Float
+Quantity.PT.WR.Trq_Drive.Unit = Nm
+
+File.At.59.Name = PT.WR.Trq_Supp2WC
+File.At.59.Type = Float
+Quantity.PT.WR.Trq_Supp2WC.Unit = Nm
+
+File.At.60.Name = PT.WR.rot
+File.At.60.Type = Float
+Quantity.PT.WR.rot.Unit = rad
+
+File.At.61.Name = PT.WR.rotv
+File.At.61.Type = Float
+Quantity.PT.WR.rotv.Unit = rad/s
+
+File.At.62.Name = Vhcl.F.LongSlip
+File.At.62.Type = Float
+
+File.At.63.Name = Vhcl.F.SideSlip
+File.At.63.Type = Float
+Quantity.Vhcl.F.SideSlip.Unit = rad
+
+File.At.64.Name = Vhcl.R.LongSlip
+File.At.64.Type = Float
+
+File.At.65.Name = Vhcl.R.SideSlip
+File.At.65.Type = Float
+Quantity.Vhcl.R.SideSlip.Unit = rad
+
+File.At.66.Name = DM.GearNo
+File.At.66.Type = Int
+
+File.At.67.Name = DM.Lat.ManIdx
+File.At.67.Type = Int
+
+File.At.68.Name = DM.Lat.StepIdx
+File.At.68.Type = Int
+
+File.At.69.Name = DM.Long.ManIdx
+File.At.69.Type = Int
+
+File.At.70.Name = DM.Long.StepIdx
+File.At.70.Type = Int
+
+Anim.Msg.0.Time = 0
+Anim.Msg.0.Class = Anim
+Anim.Msg.0.Id = 60
+Anim.Msg.0.Data:
+	1/k+EbCxjcOB40EcuUqXzD8QvjDX+T4FAAAAAgAAAAIAAAAAADwK
+
+Anim.Msg.1.Time = 0
+Anim.Msg.1.Class = Anim
+Anim.Msg.1.Id = 18
+Anim.Msg.1.Data:
+	yG2QP76j+zaD6i1gcS1U1oOU75bIbZCPAAAAeAAAAHgAAAAAABJ3aW42NABPZmZs
+	aW5lADE0LjEuMQBDOi9Vc2Vycy9tYXJjby9PbmVEcml2ZS9EZXNrdG9wL211bmVy
+	L2R5bmFtaWNzL3Byb2dldHRvAE15UEdfV2VhdmUALnRtcF9NU0ktRGktTWFyY29f
+	bWFyY28uMAAAAiNF
+
+Anim.Msg.2.Time = 0
+Anim.Msg.2.Class = Anim
+Anim.Msg.2.Id = 50
+Anim.Msg.2.Data:
+	Phsci+Ceij7BhwiyvprdHWPz3Y4+GxyfAAAAAwAAAAMAAAAAADIA
+
+Anim.Msg.3.Time = 0
+Anim.Msg.3.Class = Anim
+Anim.Msg.3.Id = 51
+Anim.Msg.3.Data:
+	Lo9uPaqvrqzj9/D0O0bqo5dHdBUuj24pAAAAAwAAAAMAAAAAADMA
+
+Anim.Msg.4.Time = 0
+Anim.Msg.4.Class = Anim
+Anim.Msg.4.Id = 52
+Anim.Msg.4.Data:
+	pD36LGB9TwlzuMpFXa6/yjjHXxikPfo4AAAAAwAAAAMAAAAAADQA
+
+Anim.Msg.5.Time = 0
+Anim.Msg.5.Class = Anim
+Anim.Msg.5.Id = 21
+Anim.Msg.5.Data:
+	lbFLX7LVZ1+dLfRUA5cMfWz2PXGVsUvDAAAAaAAAAGgAAAAAABUAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK
+
+Anim.VehicleClass = MCycle
+Anim.Vehicle.MovieSkin = 3D/Vehicles/Ducati_Panigale1199_2012.mobj
+
+Anim.Msg.6.Time = 0
+Anim.Msg.6.Class = Anim
+Anim.Msg.6.Id = 19
+Anim.Msg.6.Data:
+	CmDaqW1XysF77Wb15SoegrfFYRwKYNjRAAABzAAAAcwAAAAAABMAjgAAAgAAAAAA
+	AAAAAL0Y/FA+gAAAPo0BO0AI59W+gAAAP7/ISwAAAAAAAAAAAAAAAD+K13MAAAAA
+	PwyylkMbeuFBA5maQht750JkjEq+MspYAAAAAD6mmtQAAAAAAAAAAAAAAAA/QRNA
+	AAAAAD9TMzM/BgqRAAAAAAAAAAA/RoCdAAAAAD4znA8AAAAAAJQAAQAAAAA/41P4
+	AAAAAD6YusdAQAAAAAAAAL7a7yE/uj1xAAAAAD9uFHs/xIqKAAAAAD9TedEAAAAA
+	AAAAAAAAAABBlvnbPwEVIT3MzM09zMzNPkzMzQAAAAAAAAAAAAAAALnRtxcAAAAA
+	AAAAAD/B4xsAAAAAP18flAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoAA0AAAAA
+	Pqaa1AAAAAA+pprUQEAAAAAAAAA/XjU/AAAAAD7JN0w/Uan8AAAAAD8aXjU+ADy1
+	PoKttz8L+r4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAoK
+
+Anim.Msg.7.Time = 0
+Anim.Msg.7.Class = Anim
+Anim.Msg.7.Id = 15
+Anim.Msg.7.Data:
+	/NIoLXN847ixkVhvvoTfBTwfdu780ihdAAAASAAAAEgAAAAAAA8CAAAAAAAAAQAA
+	PqaNuT53F1kAAAAAPfXCjwAAAAAAAAAARhxAAAEBAAA+osPKPl0U5AAAAAA+LhR7
+	AAAAAAAAAABGHEAA
+
+Anim.Msg.8.Time = 0
+Anim.Msg.8.Class = Instr
+Anim.Msg.8.Id = 0
+Anim.Msg.8.Data:
+	cIO3Ro2kJ44czdKtCk1qonmuZSJwg7dqAAAAFAAAABQAAAAAAAAAAAAGAABGNcx7
+	Q52AAAAAAAEK
+
+Anim.Msg.9.Time = 0
+Anim.Msg.9.Class = Anim
+Anim.Msg.9.Id = 22
+Anim.Msg.9.Data:
+	Y/QF2xteAHCh+UWUJzgjnM5rx5Nj9AX3AAAAFAAAABQAAAAAABYAAAAGAABGNcx7
+	Q52AAAAAAAEK
+
+Anim.Msg.10.Time = 0
+Anim.Msg.10.Class = Anim
+Anim.Msg.10.Id = 61
+Anim.Msg.10.Data:
+	1qWVIwGEewfyJHzdH8NokFTqRZXWpZUDAAAADAAAAAwAAAAAAD0AAAwAAAAAAAAA
+
+Testrun = MyPG_Weave
+
+SimParam.DeltaT = 0.001
+
+NamedValues.Count = 0
+
+KeyValues.Count = 0
+
+GPUSensors.Count = 0
+
+Comment:
+	For more details see session logfile
+
+CarMaker.NumVersion = 140101
+CarMaker.Version = 14.1.1
+CarMaker.Version.MatSupp = 14.1
+CarMaker.Version.Apo = 2.3.3
+CarMaker.Version.Info = 2.0.3
+CarMaker.Version.Driver = 14.1.1
+CarMaker.Version.Road = 14.1.1
+CarMaker.Version.Tire = 9.1.1
+

@@ -1,0 +1,206 @@
+APPLICATION	MotorcycleMaker 14.1.1 - MCycle_Generic #1 (win64-14.1.1)
+COMPILED	jetbrains@2dc68d98a08b 2025-07-07 14:55:54
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2025-12-16 12:03:35
+TIME	0.000
+SIM_END			0s	0m
+IDLE	12:03:36
+SIM_START	MyPG_Weave	2025-12-16 12:03:42
+TIME	0.011
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	22.087
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.16 deg)
+SIM_ABORT	MyPG_Weave	22.106s	1034.71m
+TIME	172.754
+SIM_START	MyPG_Weave	2025-12-16 12:31:20
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	6.060
+ERROR		Vehicle leaves road at about x=791.939, y=172.614 z=0.321599
+ERROR		MF-Tyre/MF-Swift: ERROR - Error return from mfs_api external road evaluate call
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: Failure to evaluate road
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+SIM_ABORT	MyPG_Weave	6.061s	114.744m
+TIME	94.131
+SIM_START	MyPG_Weave	2025-12-16 12:55:12
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	6.093
+ERROR		Vehicle leaves road at about x=804.815, y=-103.71 z=0.321376
+ERROR		MF-Tyre/MF-Swift: ERROR - Error return from mfs_api external road evaluate call
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: Failure to evaluate road
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+SIM_ABORT	MyPG_Weave	6.094s	112.135m
+TIME	8.798
+SIM_START	MyPG_Weave	2025-12-16 12:55:47
+TIME	8.798
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+TIME	0.052
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	6.093
+ERROR		Vehicle leaves road at about x=804.815, y=-103.71 z=0.321376
+ERROR		MF-Tyre/MF-Swift: ERROR - Error return from mfs_api external road evaluate call
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: Failure to evaluate road
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+ERROR		MF-Tyre/MF-Swift: ERROR - Program error: cannot normalize a zero vector.
+SIM_ABORT	MyPG_Weave	6.094s	112.135m
+TIME	22.424
+SIM_START	MyPG_Weave	2025-12-16 12:58:38
+TIME	22.424
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+TIME	0.003
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	18.881
+SIM_END		MyPG_Weave	18.879s	477.261m
+SIM_START	MyPG_Weave	2025-12-16 12:59:02
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	18.881
+SIM_END		MyPG_Weave	18.879s	477.261m
+TIME	67.691
+SIM_START	MyPG_Weave	2025-12-16 13:08:11
+TIME	67.691
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+TIME	0.003
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	18.910
+SIM_END		MyPG_Weave	18.908s	478.038m
+SIM_START	MyPG_Weave	2025-12-16 13:08:35
+TIME	19.266
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+TIME	0.052
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	18.910
+SIM_END		MyPG_Weave	18.908s	478.038m
+TIME	31.580
+SIM_START	MyPG_Weave	2025-12-16 13:11:02
+TIME	0.002
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	20.522
+SIM_END		MyPG_Weave	20.519s	522.815m
+TIME	29.372
+SIM_START	MyPG_Weave	2025-12-16 13:12:53
+TIME	29.372
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+TIME	0.054
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	20.569
+SIM_END		MyPG_Weave	20.567s	524.132m
+TIME	26.301
+SIM_START	MyPG_Weave	2025-12-16 13:14:12
+TIME	26.301
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+TIME	0.053
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	3.707
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.19 deg)
+SIM_ABORT	MyPG_Weave	3.73s	89.3672m
+TIME	10.226
+SIM_START	MyPG_Weave	2025-12-16 13:15:22
+TIME	0.003
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	3.743
+		WARNING - Inclination angle is above tire file maximum parameter CAMMAX. It is capped at (0.96).
+ERROR		Roll angle too high (60.25 deg)
+SIM_ABORT	MyPG_Weave	3.757s	89.4098m
+TIME	12.729
+SIM_START	MyPG_Weave	2025-12-16 13:16:57
+TIME	0.002
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	37.280
+SIM_END		MyPG_Weave	37.277s	311.268m
+SIM_START	MyPG_Weave	2025-12-16 13:17:38
+TIME	37.481
+		INFO - MF-Tyre/MF-Swift 2406  (1784f5ec5d08)
+		WARNING - Residual stiffness (CCX) is (almost) zero.
+TIME	0.054
+		WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (5400).
+		WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).
+TIME	0.000
+SIMULATE	MyPG_Weave
+
+TIME	32.440
+SIM_END		MyPG_Weave	32.437s	271.078m
+TIME	38.070
+SHUTDOWN	CarMaker quick shutdown initiated
+

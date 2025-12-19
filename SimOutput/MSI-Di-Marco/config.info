@@ -1,0 +1,231 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+TestRig.StartTime1970Str = 2025-12-16 13:39:03
+TestRig.StartTime1970 = 1765888743
+CarMaker.Library = win64 14.1.1 #1
+CarMaker.Compiled = jetbrains@2dc68d98a08b 2025-07-07 14:37:51
+CarMaker.CompileFlags:
+	-m64 -O3 -DNDEBUG -DWIN32 -DWIN64 -DCM_NUMVER=140101 -DCM_BUILD  -Wall -Wimplicit -Wmissing-prototypes -D__USE_MINGW_ANSI_STDIO -DUNICODE -Wlogical-op -Wno-address-of-packed-member -DCM_FMU
+CarMaker.Version = 14.1.1
+CarMaker.Version.MatSupp = 14.1
+CarMaker.Version.Apo = 2.3.3
+CarMaker.Version.Info = 2.0.3
+CarMaker.Version.MIO = unknown
+CarMaker.Version.Driver = 14.1.1
+CarMaker.Version.Road = 14.1.1
+CarMaker.Version.Tire = 9.1.1
+Driver.Version = 14.1.1
+Driver.ParamId = 12000000
+Driver.ErrorId = 8000000
+Driver.LearnPhaseId = 8100000
+Driver.Info = (@@)IPGDriver win64 14.1.1 2025-07-04
+Driver.CompileTime = 25/07/04 09:17:10
+Driver.CompileBy = jub
+Driver.CompileSystem = bart
+Driver.CompileFlags = win-gcc-11.3 -Wall -DWIN32 -DWIN64 -DUNICODE -DDLLEXP= -I../lib/lock/win64 -I../lib/core/win64/include -m64 -I/opt/ipg/carmaker/linux64/include/ -O3 -DNDEBUG   -D_GNU_SOURCE
+Driver.BuiltVersion = 7249
+Environment.Models:
+	Generic             	v1 (compat. v1)
+PTEngineCU.Models:
+	Basic               	v1 (compat. v1)
+PTEngine.Models:
+	DVA                 	v1 (compat. v1)
+	Mapping             	v1 (compat. v1)
+	Linear              	v1 (compat. v1)
+	Dummy               	v1 (compat. v1)
+PTMotorCU.Models:
+	Basic               	v1 (compat. v1)
+PTMotor.Models:
+	PMSM                	v1 (compat. v1)
+	Mapping             	v1 (compat. v1)
+	Starter             	v1 (compat. v1)
+PTTransmCU.Models:
+	DCT                 	v1 (compat. v1)
+	CVT                 	v1 (compat. v1)
+	Auto_DCT_AMT        	v1 (compat. v1)
+	Auto_Conv_AMT       	v1 (compat. v1)
+	Auto_AMT            	v1 (compat. v1)
+	Auto_Conv           	v1 (compat. v1)
+	Automatic           	v1 (compat. v1)
+PTClutch.Models:
+	Closed              	v1 (compat. v1)
+	Open                	v1 (compat. v1)
+	DMF                 	v1 (compat. v1)
+	DVA                 	v1 (compat. v1)
+	Converter           	v1 (compat. v1)
+	Manual              	v1 (compat. v1)
+	Dummy               	v1 (compat. v1)
+PTGearBox.Models:
+	NoGearbox           	v1 (compat. v1)
+	DCT                 	v1 (compat. v1)
+	CVT                 	v1 (compat. v1)
+	Auto_AMT            	v1 (compat. v1)
+	Auto_Conv           	v1 (compat. v1)
+	Automatic           	v1 (compat. v1)
+	DVA                 	v1 (compat. v1)
+	Manual              	v1 (compat. v1)
+	Dummy               	v1 (compat. v1)
+PTDriveLine.Models:
+	Dummy               	v1 (compat. v1)
+PTDriveLineXWD.Models:
+PowerTrain.Models:
+	ChainDriven         	v1 (compat. v1)
+	ShaftDriven         	v1 (compat. v1)
+	Dummy               	v1 (compat. v1)
+PowerTrainXWD.Models:
+PTControl.Models:
+	Generic             	v1 (compat. v1)
+PTControlOSM.Models:
+	Generic             	v1 (compat. v1)
+PTGenCoupling.Models:
+PTBatteryCU.Models:
+	LV_HV1              	v1 (compat. v1)
+	LV_HV1_HV2          	v1 (compat. v1)
+	LV                  	v1 (compat. v1)
+PTInverter.Models:
+	Ideal               	v1 (compat. v1)
+	Mapping             	v1 (compat. v1)
+PTBattery.Models:
+	Chen                	v1 (compat. v1)
+	BattECM             	v1 (compat. v1)
+PTPowerSupply.Models:
+	LV_HV1_HV2          	v1 (compat. v1)
+	LV_HV1              	v1 (compat. v1)
+	LV                  	v1 (compat. v1)
+UniversalMC.Models:
+Steering.Models:
+Tire.Models:
+	IPGTIRE             	v1 (compat. v1)
+	TameTire            	v1 (compat. v1)
+	CDTire              	v1 (compat. v1)
+	FTire               	v1 (compat. v1)
+	TASS_MF             	v1 (compat. v1)
+	MF61                	v1 (compat. v1)
+	MF52                	v3 (compat. v2)
+	RTTire              	v3 (compat. v3)
+	Dummy               	v1 (compat. v1)
+TireCPMod.Models:
+Aero.Models:
+	Coeff6x1            	v1 (compat. v1)
+	IPGCar              	v1 (compat. v1)
+	Dummy               	v1 (compat. v1)
+Susp_FrcSystem.Models:
+Susp_SpringSystem.Models:
+Susp_Spring.Models:
+Susp_ParasiticEffects.Models:
+Susp_TopMount.Models:
+Susp_DamperSystem.Models:
+Susp_Damper.Models:
+Susp_BufferSystem.Models:
+Susp_Buffer.Models:
+Susp_StabiSystem.Models:
+Susp_Stabi.Models:
+SuspControl.Models:
+SuspExtFrcs.Models:
+	SuspComponent       	v1 (compat. v1)
+SuspEF_Spring.Models:
+SuspEF_Damper.Models:
+SuspEF_Buffer.Models:
+SuspEF_Stabi.Models:
+MCycleSuspFront.Models:
+	UpsideDown          	v1 (compat. v1)
+	Telescopic          	v1 (compat. v1)
+	Telelever           	v1 (compat. v1)
+	Linear              	v1 (compat. v1)
+MCycleSuspRear.Models:
+	Scooter             	v1 (compat. v1)
+	ProLink             	v1 (compat. v1)
+	ParaleverSwingLower 	v1 (compat. v1)
+	ParaleverSwingUpper 	v1 (compat. v1)
+	SwingArm            	v1 (compat. v1)
+	Linear              	v1 (compat. v1)
+MCycleSuspFrcEl.Models:
+	tzTable             	v1 (compat. v1)
+	q0Table             	v1 (compat. v1)
+	ProLink             	v1 (compat. v1)
+	ParaleverSwingLower 	v1 (compat. v1)
+	ParaleverSwingUpper 	v1 (compat. v1)
+	SwingArm            	v1 (compat. v1)
+	Telelever           	v1 (compat. v1)
+	UpsideDown          	v1 (compat. v1)
+	Telescopic          	v1 (compat. v1)
+	Linear              	v1 (compat. v1)
+	BuildIn             	v1 (compat. v1)
+	Dummy               	v1 (compat. v1)
+UserDriver.Models:
+VehicleControl.Models:
+VhclOperator.Models:
+	IPGOperator         	v1 (compat. v1)
+SelectorCtrlMapping.Models:
+	SelectorCtrlToDGS   	v1 (compat. v1)
+Brake.Models:
+	Generic             	v1 (compat. v1)
+	Dummy               	v1 (compat. v1)
+HydBrakeSystem.Models:
+HydBrakeControl.Models:
+AirBrakeSystem.Models:
+AirBrakeControl.Models:
+SuspKnC.Models:
+SuspKnC_Kin.Models:
+SuspKnC_Com.Models:
+Vehicle.Models:
+Generic.Models:
+TrfFollow.Models:
+	HDM                 	v1 (compat. v1)
+	Generic             	v1 (compat. v1)
+TrfLaneChange.Models:
+	HDMbased            	v1 (compat. v1)
+Application.Version = MotorcycleMaker 14.1.1 - MCycle_Generic
+Application.BuildVersion = 1
+Application.CompileTime = 2025-07-07 14:55:54
+Application.CompileUser = jetbrains
+Application.CompileSystem = 2dc68d98a08b
+Application.CompileFlags:
+	-m64 -O3 -DNDEBUG -DWIN32 -DWIN64 -DCM_NUMVER=140101
+	-DMYMODELS -Wall -Wimplicit -Wmissing-prototypes
+	-D__USE_MINGW_ANSI_STDIO -DUNICODE -Wlogical-op
+	-Wno-address-of-packed-member
+
+Application.Libs:
+	libmcycle.a	CarMaker-MCycle win64 14.1.1 2025-07-07
+	libcarmaker.a	CarMaker win64 14.1.1 2025-07-07
+	libipgdriver.a	IPGDriver win64 14.1.1 2025-07-04
+	libipgroad.a	IPGRoad win64 14.1.1 2025-07-03
+	libipgtire.a	IPGTire win64 9.1.1 2024-10-08
+
+Application.Version.Driver = 14.1.1
+Application.Version.Road = 14.1.1
+
+IO.Configs:
+
+ErrorClass.0.Text = General
+ErrorClass.0.Action = abort
+ErrorClass.0.Save = 0
+ErrorClass.0.WarnLimit = 0 0
+ErrorClass.1.Text = Initialization
+ErrorClass.1.Action = abort
+ErrorClass.1.Save = 0
+ErrorClass.1.WarnLimit = 0 0
+ErrorClass.2.Text = Simulation
+ErrorClass.2.Action = abort
+ErrorClass.2.Save = 1
+ErrorClass.2.WarnLimit = 0 0
+ErrorClass.3.Text = CycleTime
+ErrorClass.3.Action = abort
+ErrorClass.3.Save = 0
+ErrorClass.3.WarnLimit = 0 0
+ErrorClass.4.Text = Engine stalled
+ErrorClass.4.Action = abort
+ErrorClass.4.Save = 0
+ErrorClass.4.WarnLimit = 0 0
+ErrorClass.5.Text = Trailer Articulation Angle
+ErrorClass.5.Action = abort
+ErrorClass.5.Save = 0
+ErrorClass.5.WarnLimit = 0 0
+ErrorClass.6.Text = Hardware I/O
+ErrorClass.6.Action = abort
+ErrorClass.6.Save = 0
+ErrorClass.6.WarnLimit = 0 0
+ErrorClass.7.Text = GPUSensor
+ErrorClass.7.Action = abort
+ErrorClass.7.Save = 0
+ErrorClass.7.WarnLimit = 0 0

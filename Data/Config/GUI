@@ -1,0 +1,9 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = GUI-Config 14.0
+MM.Exe = MCycleMaker.win64.exe
+MM.Args =
+MM.Exe.History:
+	MCycleMaker.win64.exe
+MM.Args.History:
+	""
+GPUParameters.FName =

@@ -14,7 +14,7 @@ Description:
 	PowerTrain: ChainDriven
 	Wheel base: 1437 mm
 
-Rider.Mnt = 0.7542 0.0 0.825
+Rider.Mnt = 0.8 0.0 0.825
 Virtual.PoA = 1.0 0.0 0.5
 
 SuspF.SK.Wheel.mass = 8.448
@@ -55,7 +55,7 @@ Body.I = 8.225 38.871 57.137 -0.0 -0.0 -0.0
 Body.pos = 1.0847   0.0   0.5496
 Rider.mass = 102.0
 Rider.I = 6.6326 6.6326 2.9478 -0.0 -0.0 -0.0
-Rider.pos = 0.80   0.0   1.0444
+Rider.pos = 0.7542   0.0   1.0444
 Engine.mass = 0.0
 Engine.I = 0.0 0.0 0.0 -0.0 -0.0 -0.0
 Engine.pos = 1.0847   0.0   0.5496
@@ -120,7 +120,7 @@ SuspF.Spring.l0 = 0.0218
 SuspF.Spring:
 	0.0 0.0
 	0.1 4774.6
-	1.0 47746.0
+	1.0 47746
 SuspF.Damp_Push.Amplify = 1.0
 SuspF.Damp_Push:
 	0.0 0.0
@@ -158,13 +158,13 @@ SuspF.SK.Carrier.mass = 10.424
 SuspF.SK.Carrier.I = 0.0375 0.3558 0.3558
 SuspF.SK.Carrier.pos = 1.681 0.0 0.542
 SuspF.SK.PointOnSteerAxis = 1.776 0.0 0.2983
-SuspF.SK.SpinAngle = -25
+SuspF.SK.SpinAngle = -27
 SuspR.Spring.Amplify = 1.0
 SuspR.Spring.l0 = 0.23
 SuspR.Spring:
 	0.0 0.0
-	0.1 30000
-	1.0 300000
+	0.1 35000
+	1.0 350000
 SuspR.Damp_Push.Amplify = 1.0
 SuspR.Damp_Push:
 	0.0 0.0
@@ -201,7 +201,7 @@ SuspR.SK.FrcEl.Kind = SwingArm
 SuspR.SK.Carrier.mass = 3.1385
 SuspR.SK.Carrier.I = 0.0214 0.0333 0.0214
 SuspR.SK.Carrier.pos = 0.3254 0.0 0.3254
-SuspR.SK.SwingArm.mass = 3.1385
+SuspR.SK.SwingArm.mass = 5
 SuspR.SK.SwingArm.I = 0.0043 0.0467 0.0467
 SuspR.SK.SwingArm.pos = 0.583 0.0 0.407
 SuspR.SK.SwingArmJointInner = 0.868 0.0 0.393
@@ -251,7 +251,7 @@ Brake.Comment:
 
 ## Powertrain ############################################################
 PowerTrain.Kind = ChainDriven 1
-PowerTrain.DL.OSRate = 5
+PowerTrain.DL.OSRate = 3
 PowerTrain.Engine.Kind = Mapping 1
 PowerTrain.Engine.I = 0.0505
 PowerTrain.Engine.Crankshaft.Orientation = y-axis
@@ -277,7 +277,7 @@ PowerTrain.Engine.DragPower:
 	11108.0 -9.9135
 	11467.0 -10.233
 	11825.0 -10.553
-PowerTrain.Engine.FullLoadPower.Amplify = 1.0
+PowerTrain.Engine.FullLoadPower.Amplify = 1.5
 PowerTrain.Engine.FullLoadPower:
 	622.09 0.0
 	1088.7 31.228
@@ -294,7 +294,11 @@ PowerTrain.Engine.FullLoadPower:
 	11467.0 75.892
 	11825.0 0.0
 PowerTrain.Engine.FuelConsume = 0
-PowerTrain.Engine.PwrCorr.Active = 0
+PowerTrain.Engine.PwrCorr.Active = 1
+PowerTrain.Engine.PwrCorr.Pres_ref = 1013.25
+PowerTrain.Engine.PwrCorr.Temp_ref = 20.0
+PowerTrain.Engine.PwrCorr.cPres = 1.0
+PowerTrain.Engine.PwrCorr.cTemp = 0.5
 PowerTrain.Engine.Turbo.Active = 0
 PowerTrain.Engine.IMP.Active = 0
 PowerTrain.Engine.Bdy.mass = 0.0
